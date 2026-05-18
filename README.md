@@ -45,7 +45,7 @@
 #### 2.3. Null Data Visualization
 #### 2.4. Descriptive statistics
 ### 3. Exploratory Data Analysis (EDA)
-#### 3.1. Parameter Distribution
+#### 3.1. Distribution of Integer variables
 - 3.1.1. Age Distribution
 - 3.1.2. Balance Distribution
 - 3.1.3. Day Distribution
@@ -55,10 +55,20 @@
 - 3.1.7. Previous Distribution
 #### 3.2. Correlation
 #### 3.3. Pairplot Analysis
-#### 3.4. Binary Variable Distribution
+#### 3.4. Distribution of Binary Variables
 - 3.4.1. Default Distribution
 - 3.4.2. Housing Distribution
 - 3.4.3. Loan Distribution
 #### 3.5. Distribution of Categorical Variables
+- 3.5.1. Job Distribution
+- 3.5.2. Marital Distribution
+- 3.5.3. Education Distribution
+- 3.5.4. Contact Distribution
+- 3.5.5. Month Distribution
+- 3.5.6. Performance Distribution
+#### 3.6. Extra Graphs
+#### 4. Data Preparation for Modeling
+- 4.1. Class Balancing of the Target Variable
+- 4.2. Feature Encoding and Feature Vector Construction
 
 https://archive.ics.uci.edu/dataset/222/bank+marketing
