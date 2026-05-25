@@ -61,7 +61,7 @@
 - 3.4.3. Loan Distribution
 #### 3.5. Distribution of Categorical Variables
 - 3.5.1. Job Distribution
-- 3.5.2. Marital Distribution
+- 3.5.2. Marital Distribution (PENDING ANALYSIS)
 - 3.5.3. Education Distribution
 - 3.5.4. Contact Distribution
 - 3.5.5. Month Distribution
@@ -70,5 +70,8 @@
 #### 4. Data Preparation for Modeling
 - 4.1. Class Balancing of the Target Variable
 - 4.2. Feature Encoding and Feature Vector Construction
+#### 5. Modeling: Model Construction
+- 5.1. Funtions for performance metrics
+- 5.2. Linear Regression Model
 
 https://archive.ics.uci.edu/dataset/222/bank+marketing
