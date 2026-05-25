@@ -61,7 +61,7 @@
 - 3.4.3. Loan Distribution
 #### 3.5. Distribution of Categorical Variables
 - 3.5.1. Job Distribution
-- 3.5.2. Marital Distribution (PENDING ANALYSIS)
+- 3.5.2. Marital Distribution
 - 3.5.3. Education Distribution
 - 3.5.4. Contact Distribution
 - 3.5.5. Month Distribution
@@ -73,5 +73,9 @@
 #### 5. Modeling: Model Construction
 - 5.1. Funtions for performance metrics
 - 5.2. Linear Regression Model
-
+- 5.3. Decision Tree
+- 5.4. Random Forest
+- 5.5. Gradient Boosted Tree (GBT)
+- 5.6. Support Vector Machine (SVM)
+#### 6. Model Evaluation
 https://archive.ics.uci.edu/dataset/222/bank+marketing
