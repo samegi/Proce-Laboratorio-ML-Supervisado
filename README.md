@@ -1,15 +1,53 @@
 # Laboratorio-ML-Supervisado
 **Autor:** Sara Mejia Giraldo
 **Started:** 28/04/2026
-**Last Update:** 17/05/2026
+**Last Update:** 25/05/2026
 #### Lab: Metrics and Machine Learning with PySpark
 
-## Description
+## Source
+https://archive.ics.uci.edu/dataset/222/bank+marketing
 
-## Proyect Structure
+## Software Requierments
+- Python **3.8 o superior**
+- Apache Spark **3.x**
+- Java **8 o 11** (necesario para Spark)
+- Jupyter Notebook o Jupyter Lab
 
-## Requierments
+---
 
+### 🔧 Apache Spark Configuration
+
+1. Download Apache Spark from:  
+   👉 https://spark.apache.org/downloads.html
+
+2. Set-Up global variables:
+
+### En Linux / Mac:
+```bash
+export SPARK_HOME=/ruta/a/spark
+export PATH=$SPARK_HOME/bin:$PATH
+```
+
+### Windows:
+- Set-Up `SPARK_HOME`
+- Add `SPARK_HOME/bin` to `PATH`
+
+---
+
+### ▶️ Execution
+
+1. Clone:
+
+```bash
+git clone https://github.com/tu-usuario/tu-repo.git
+cd tu-repo
+```
+
+2. Open:
+
+```bash
+jupyter notebook
+```
 ## Variables
 | Variable Name | Role | Type | Demographic | Description | Units | Missing Values |
 |---|---|---|---|---|---|---|
@@ -31,7 +69,7 @@
 | poutcome | Feature | Integer |  | 	outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')	 |  | yes |
 | y | Target | Binary |  | 	has the client subscribed a term deposit? |  | yes |
 
-## Methodolody
+## Proyect Structure
 ### 1. Preparation
 #### 1.1. Setting Up pip Environment Variables
 #### 1.2. Initializing the Spark Session
@@ -78,4 +116,3 @@
 - 5.5. Gradient Boosted Tree (GBT)
 - 5.6. Support Vector Machine (SVM)
 #### 6. Model Evaluation
-https://archive.ics.uci.edu/dataset/222/bank+marketing
